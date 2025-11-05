@@ -42,7 +42,7 @@ class LeftDrawer extends StatelessWidget {
             title: const Text('Home'),
             // Bagian redirection ke MyHomePage
             onTap: () {
-              Navigator.pushReplacement(
+              Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => MyHomePage(),
@@ -54,7 +54,7 @@ class LeftDrawer extends StatelessWidget {
             title: const Text('Add News'),
             // Bagian redirection ke NewsFormPage
             onTap: () {
-              Navigator.pushReplacement(
+              Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => NewsFormPage(),
@@ -67,7 +67,7 @@ class LeftDrawer extends StatelessWidget {
             title: const Text('See Football News'),
             // Bagian redirection ke MyHomePage
             onTap: () {
-              Navigator.pushReplacement(
+              Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => MyHomePage(),
